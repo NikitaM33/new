@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Анкета</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <!-- Хедер -->
+    <header>
+        <div class="wrapper">
+            <div class="head-wrap">
+                <div class="logo"><img src="img/metalbat.jpg"></div>
+                <div class="persona">
+                    <h3>Имя: Никита</h3>
+                    <a href="https://github.com/NikitaM33/LevelUP_Learning"><h3>Мой GitHub</h3></a>
+                    <h3>Опыт работы: нет</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Фон хедера -->
+    <div class="banner"></div>
+    <div class="skills">
+        <div class="wrapper">
+                <!-- Календарик -->
+            <div class="skill-wrap">
+            <!--КАК СДЕЛАТЬ INPUT В ОДНУ СТРОКУ С ТЕКСТОМ????-->
+                <h3>Дата собеседования: </h3>
+                <input type="date" name="calendar">
+                <!-- Английский -->
+                <div class="lang-skill">
+                    <h3>Уровень владения английским:</h3>
+                    <input id="Great" type="radio" name="ing">Изумительно
+                    <input id="Good" type="radio" name="ing">Хорощо
+                    <input id="Mid" type="radio" name="ing">Средне
+                    <input id="Bad" type="radio" name="ing">Плохо
+                    <input id="Not" type="radio" name="ing">Уже не владею
+                </div>
+                <!-- Ключевые навыки -->
+                <div class="key-skill">
+                    <h3>Ключевые навыки</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS/LESS</li>
+                        <li>JavaScript</li>
+                        <li>Лень</li>
+                    </ul>
+                    <input type="text" placeholder="Введите навык">
+                    <input type="submit" value="Добавить">
+                </div>
+                <!-- Коммуникабельность -->
+                <div class="comm">
+                    <!--КАК СДЕЛАТЬ INPUT В ОДНУ СТРОКУ С ТЕКСТОМ????-->
+                    <p>
+                        <labal for="comm"><h3>Личные качества:</h3></labal>
+                        <select name="commun" id="commun">
+                            <option value="com1">1</option>
+                            <option value="com2">2</option>
+                            <option value="com3">3</option>
+                            <option value="com4">4</option>
+                            <option value="com5">5</option>
+                            <option value="com6">6</option>
+                        </select>
+                    </p>
+                </div>
+                <!-- Желаемая ЗП -->
+                <div class="zp">
+                    <h3>Желаемая З/П:</h3>
+                    <!--КАК СДЕЛАТЬ INPUT В ОДНУ СТРОКУ С ТЕКСТОМ????-->
+                    <input type="text" placeholder="Введите ззначение">
+                </div>
+                <!-- Критерии -->
+                <div class="criteria">
+                    <h3>Подходит по критериям:</h3>
+                    <input type="checkbox" name="check1"> Вообще не шарит
+                    <input type="checkbox" name="check2"> Кто его пригласил на собеседование?
+                    <input type="checkbox" name="check3"> Норм, берем
+                    <input type="checkbox" name="check4"> Сразу видно, свой человек
+                    <input type="checkbox" name="check5"> Бог программирования
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ФУТТЕР -->
+    <footer>
+        <div class="footwrap">
+            <div class="foot-wrapp">
+                <div class="table">
+                    <h3>Образование и курсы</h3>
+                    <table>
+                        <tr>
+                            <th>#</th>
+                            <th>Сроки обучения</th>
+                            <th>Наименование учебного заведения</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>5 месяцев</td>
+                            <td>LevelUp</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>5 лет</td>
+                            <td>Yale</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>7 лет</td>
+                            <td>Hogwarts</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+        <script src="js/script.js"></script>
+</body>
+</html>

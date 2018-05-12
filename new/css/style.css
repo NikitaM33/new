@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #008B8B;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.head-wrap{
+    display: flex;
+    align-items: center;
+}
+header{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.banner{
+    height: 168px;
+    background: url("../img/banner.jpg") center top;
+}
+.logo img{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.persona{
+    margin-left: 45px;
+}
+.skill-wrap{
+    display: inline;
+}
+.criteria{
+    margin-bottom: 15px;
+}
+.foot-wrapp{
+    height: 220px;
+    background: url("../img/banner.jpg") center top;
+    display: flex;
+    justify-content: center;
+}
+footwrap{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+table, td, th{
+    border: 2px solid #008B8B;
+    text-align: center;
+}
+table{
+    width: 700px;
+    border-collapse: collapse;
+}
+td{
+    height: 20px;
+    padding: 5px;
+}
+th{
+    background-color: #8B8B;
+}
